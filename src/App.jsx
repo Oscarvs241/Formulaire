@@ -1,6 +1,6 @@
 // src/Formulaire.jsx
 import React, { useState } from "react";
-import { db } from "./Firebase/config";
+import { db } from "./firebase/config";
 import { collection, addDoc } from "firebase/firestore";
 import "./index.css";
 
